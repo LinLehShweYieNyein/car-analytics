@@ -1,0 +1,147 @@
+/* HomePage.css */
+.home-page {
+    margin-top: 50px;
+}
+
+.text-center {
+    color: #C94349;
+    font-weight: bold;
+}
+
+
+.card {
+    border: 1px solid #C94349;
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* HomePage.css */
+
+/* Adjust Card styles */
+.car-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.car-card .card-title {
+    margin-bottom: 15px; /* Add space between the title and other elements */
+}
+
+.car-card .card img {
+    margin-bottom: 15px; /* Add space between the image and the button */
+    border-radius: 10px;
+}
+
+/* Adjust Favorite button placement */
+.car-card .btn {
+    margin-top: 10px; /* Add space between the image and the button */
+}
+
+/* Adjust spacing for the search bar container */
+.filter-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Adjust vertical spacing */
+}
+
+.filter-search-container .form-control {
+    max-width: 500px; /* Limit the width of the search input */
+    margin-right: 10px; /* Add spacing between the input and button */
+}
+
+.filter-search-container .btn {
+    border-radius: 25px;
+}
+
+/* HomePage.css */
+
+/* Ensure each car card uses flexbox for consistent layout */
+.car-card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Space between cards vertically */
+}
+
+/* Make the Card component stretch to fill the height of its container */
+.car-card .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Ensure Card.Body uses flexbox to distribute space evenly */
+.car-card .card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Standardize spacing for the card title */
+.car-card .card-title {
+    margin-bottom: 10px;
+}
+
+/* Standardize image size and spacing */
+.car-card .card img {
+    width: 100%;
+    height: 150px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Allow Card.Text to grow and take available space */
+.car-card .card-text {
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+
+/* Position the Favorite button at the bottom and center it */
+.car-card .btn {
+    margin-top: auto; /* Pushes the button to the bottom of the card */
+    align-self: center; /* Centers the button horizontally */
+}
+
+/* Adjust spacing for the search bar and sort buttons */
+.filter-search {
+    margin-bottom: 20px;
+}
+
+.filter-search .form-control {
+    max-width: 500px;
+    margin-right: 10px;
+}
+
+.filter-search .btn {
+    border-radius: 25px;
+}
+
+/* Style the sort buttons container */
+/* New design for sort buttons */
+.sort-button {
+    border: none;
+    background: linear-gradient(145deg, #C94349, #C94349);
+    color: #333;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), -4px -4px 8px rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+.sort-button:hover {
+    background: linear-gradient(145deg, #aa2929, #991c1c);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3), -4px -4px 12px rgba(255, 255, 255, 0.8);
+}
+
+
+
+

@@ -1,0 +1,49 @@
+/* FilterSearch.css */
+
+.filter-search {
+  width: 100%;
+  margin: 0 auto 20px;
+  max-width: 600px; /* Limit the width of the search bar */
+}
+
+.filter-input {
+  border-radius: 5px 0 0 5px; /* Rounded corners for the input */
+  border: 1px solid #C94349;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.filter-button {
+  border-radius: 0 5px 5px 0; /* Rounded corners for the button */
+  background-color: #C94349;
+  color: #fff;
+  border: 1px solid #C94349;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.filter-button:hover {
+  background-color: #C94349; /* Darker shade on hover */
+  border-color: #C94349;
+}
+
+/* Ensure spacing consistency */
+.filter-search .input-group {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .filter-search {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  .filter-input {
+    padding: 8px;
+  }
+  
+  .filter-button {
+    padding: 8px 15px;
+  }
+}
